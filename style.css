@@ -245,3 +245,90 @@ footer {
 .footer-text {
   color: #fff;
 }
+
+@media screen and (max-width: 425px) {
+
+header {
+  width:100%;
+}
+
+.social {
+  display:none;
+}
+
+ .nav-list-item {
+    display: block;
+    padding-bottom:10px;
+    }
+
+
+  .main-visual-content {
+    width:100%;
+     }
+
+    main {
+      width:100%;
+    display: block; }
+
+
+  .blog {
+    width:100%;
+    margin:0; }
+
+    .blog-box {
+      padding-left: 5px
+    }
+
+    .blog-item {
+      width :100%;
+    }
+
+    .blog-item:last-child {
+      border-bottom:none;
+    }
+    .blog-image {
+      width:45%;
+    }
+
+    .sidebar {
+      width: 100%;
+
+    }
+
+    .popular {
+      margin-top:50px;
+    }
+
+    .sidebar-contents {
+      padding-left:5px;
+    }
+
+    .instagram {
+      width: 100%;
+    }
+
+  .instagram-box {
+    width:47%;
+    padding-top:47%;
+
+
+  }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    }
+
+
+
+
+
+}
